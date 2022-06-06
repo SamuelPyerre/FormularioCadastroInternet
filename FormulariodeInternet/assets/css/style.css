@@ -1,0 +1,35 @@
+body{
+    background-image: url("../img/img.jpg");
+}
+
+.cima{
+    background-image: url("../img/img2.png");
+    border-radius: 10px;
+}
+
+.box{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
+}
+
+#group{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(151, 226, 255, 0.856);
+    border-radius: 10px;
+}
+
+.texto{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+#btn-salvar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

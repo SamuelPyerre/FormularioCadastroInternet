@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k-Média</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+<br>
+    <div class="container shadow-lg p-3 mb-5 bg-white rounded">
+        <header class="cima">
+            <h1 class="display-4 text-center font-weight-bold text-info box">Empresa de Internet - Por um mundo mais Conectado!</h1>
+        </header>
+        <div>
+            <div>
+                <h3 class = "color-secondary texto">DADOS PESSOAIS</h3>
+                <p class="texto">
+                    Nome Completo: 
+                    <input type="text" id="nome"class="form-control" placeholder="Digite seu nome completo..."aria-label="Digite aqui..." aria-describedby="inputGroup-sizing-lg"> 
+                </p>
+                <p class="texto">
+                    CPF: 
+                    <input type="text" id="cpf" class="form-control" placeholder="Digite seu CPF..."aria-label="Digite aqui..." aria-describedby="inputGroup-sizing-lg"> 
+                </p>
+                <p class="texto">
+                    E-mail: 
+                    <input type="text" id="email" class="form-control" placeholder="Digite seu e-mail..."aria-label="Digite aqui..." aria-describedby="inputGroup-sizing-lg"> 
+                </p>
+
+                <p class="texto">
+                    Selecione uma Data de Vencimento: <br>
+                    <input type="radio" name="vencimento" value="Dia 10"/> Dia 10<br>
+                    <input type="radio" name="vencimento" value="Dia 20"/> Dia 20<br>
+                    <input type="radio" name="vencimento" value="Dia 30"/> Dia 30<br>
+                </p>
+                <p class="texto">
+                    Escola um Plano:<br>
+                    <select name="plano" id="nota">
+                        <option value="Plano de 10 Megas">Plano 10 Megas</option>
+                        <option value="Plano de 50 Megas" selected>Plano 50 Megas</option>
+                        <option value="Plano de 100 Megas">Plano 100 Megas</option>
+                    </select>
+                </p>
+                <p class="texto">
+                    Escolha um tipo de instalação: <br>
+                    <input type="radio" name="instalacao" id="int01" value="Internet a Cabo"/> Internet a Cabo <br>
+                    <input type="radio" name="instalacao" id="int02" value="Internet Fibra Óptica"/> Internet Fibra Óptica<br>
+                    <input type="radio" name="instalacao" id="int03" value="Internet via Radio"/> Internet via Radio<br>
+                </p>
+                <p class="texto">
+                    O que achou dessa Plataforma de Cadastro? <br>
+                    <input type="text" id="opniao" class="form-control" placeholder="Digite sua opnião..."aria-label="Digite aqui..." aria-describedby="inputGroup-sizing-lg"> 
+                   
+                </p>
+            
+                <button type="button" class="btn btn-outline-dark btn-lg btn-block">CADASTRAR</button>
+            </div>
+            
+            
+          </div>
+          <div id="resultado">
+
+          </div>
+        
+    </div>
+   
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+    
+  
